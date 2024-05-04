@@ -1,60 +1,60 @@
-.agents {
+.partners {
   padding: 0 350px;
 
   &__info {
-     padding: 46px 59px 35px 59px;
-     margin: 36px 0;
+    padding: 46px 59px 35px 59px;
+    margin: 36px 0;
 
-     border-radius: 5px;
-     background: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
 
-     &-contents {
-       color: rgb(51, 54, 64);
-       font-size: 22px;
-       font-weight: 500;
+    &-contents {
+      color: rgb(51, 54, 64);
+      font-size: 22px;
+      font-weight: 500;
 
-       margin: 0 0 20px;
-     }
+      margin: 0 0 20px;
+    }
 
-     &-description {
-       color: rgb(69, 73, 87);
-       font-size: 18px;
-       font-weight: 400;
+    &-description {
+      color: rgb(69, 73, 87);
+      font-size: 18px;
+      font-weight: 400;
 
-       margin: 0 0 30px;
-     }
+      margin: 0 0 30px;
+    }
 
-     &-list {
-       display: flex;
-       justify-content: space-between;
-     }
+    &-list {
+      display: flex;
+      justify-content: space-between;
+    }
 
-     &-card {
-       display: flex;
-       flex-direction: column;
-       align-items: center;
+    &-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-       width: 250px;
+      width: 250px;
 
-       & img {
-         width: 80px;
-         height: 80px;
-       }
+      & img {
+        width: 80px;
+        height: 80px;
+      }
 
-       &_label {
-         color: rgb(51, 54, 64);
-         font-size: 24px;
-         font-weight: 400;
-       }
+      &_label {
+        color: rgb(51, 54, 64);
+        font-size: 24px;
+        font-weight: 400;
+      }
 
-       &_description {
-         text-align: center;
-         color: rgb(51, 54, 64);
-         font-size: 18px;
-         font-weight: 400;
-       }
-     }
-   }
+      &_description {
+        text-align: center;
+        color: rgb(51, 54, 64);
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+  }
 
   &__why {
     padding: 46px 66px 35px 60px;
@@ -104,6 +104,9 @@
           font-weight: 500;
 
           margin: 0 0 12px;
+          & span {
+            color: rgb(178, 185, 203);
+          }
         }
 
         &_description {
