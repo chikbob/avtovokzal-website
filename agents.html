@@ -1,12 +1,11 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AutoVokzal</title>
   <link rel="stylesheet" href="scss/style.css">
-  <link rel="stylesheet" href="scss/index.css">
+  <link rel="stylesheet" href="scss/agents.css">
   <link rel="stylesheet" href="scss/header.css">
   <link rel="stylesheet" href="scss/footer.css">
 
@@ -23,7 +22,6 @@
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
 </head>
-
 <body>
 <header class="header">
   <a href="index.html" class="header__icon">
@@ -55,99 +53,84 @@
   </div>
 </header>
 
-<div class="index">
-  <div class="index__contents">Купити квиток на автобус онлайн</div>
-  <div class="index__search">
-    <div class="index__search-inputs">
-      <input type="text" placeholder="Пункт відправки">
-      <input type="text" placeholder="Пункт прибуття">
-      <input type="date">
+<div class="agents">
+  <div class="agents__info">
+    <div class="agents__info-contents">Агентам</div>
+    <div class="agents__info-description">Наш сервіс надає агентам та вебмайстрам можливість продажу автобусних
+      квитків.
     </div>
-    <button onclick="alertComingSoon()" class="index__search-button">
-      Знайти квитки
-    </button>
-  </div>
-  <div class="index__guide">
-    <div class="index__guide-contents">
-      Як купити квиток на автобус
-    </div>
-    <div class="index__guide-list">
-      <div class="index__guide-card">
-        <img src="img/guide_part1.svg" alt="guide_part1.svg">
-        <div class="index__guide-text">
-          <div class="index__guide-text_label">
-            1. Подивіться розклад автобусів
-          </div>
-          <div class="index__guide-text_description">
-            Виберіть пункт відправлення автобуса, призначення та дату поїздки.
-          </div>
-        </div>
+    <div class="agents__info-list">
+      <div class="agents__info-card">
+        <img src="img/users_icon.svg" alt="users_icon.svg">
+        <div class="agents__info-card_label">1 000 000 +</div>
+        <div class="agents__info-card_description">відвідувачів на місяць</div>
       </div>
-      <div class="index__guide-card">
-        <img src="img/guide_part2.svg" alt="guide_part2.svg">
-        <div class="index__guide-text">
-          <div class="index__guide-text_label">
-            2. Виберіть рейс
-          </div>
-          <div class="index__guide-text_description">
-            Порівняйте ціни на квитки, місце і час відправлення.
-          </div>
-        </div>
+      <div class="agents__info-card">
+        <img src="img/map_icon.svg" alt="map_icon.svg">
+        <div class="agents__info-card_label">5 800 +</div>
+        <div class="agents__info-card_description">пунктів відправлення у 32 країнах</div>
       </div>
-      <div class="index__guide-card">
-        <img src="img/guide_part3.svg" alt="guide_part3.svg">
-        <div class="index__guide-text">
-          <div class="index__guide-text_label">
-            3. Купуйте квиток на автобус
-          </div>
-          <div class="index__guide-text_description">
-            Введіть дані пасажира, сплатіть квиток та роздрукуйте його.
-          </div>
-        </div>
-      </div>
-      <div class="index__guide-card">
-        <img src="img/guide_part4.svg" alt="guide_part4.svg">
-        <div class="index__guide-text">
-          <div class="index__guide-text_label">
-            4. Все готово!
-          </div>
-          <div class="index__guide-text_description">
-            Будь ласка, після поїздки залиште відгук - це покращить якість обслуговування.
-          </div>
-        </div>
+      <div class="agents__info-card">
+        <img src="img/cooperate_icon.svg" alt="cooperate_icon.svg">
+        <div class="agents__info-card_label">2 500 +</div>
+        <div class="agents__info-card_description">автовокзалів та перевізників по Україні, СНД та Європі</div>
       </div>
     </div>
   </div>
-  <div class="index__information">
-    <div class="index__information-contents">
-      <img src="img/contents_icon.svg" alt="contents_icon.svg">
-      <div class="index__information-contents_text">Інформація</div>
+  <div class="agents__why">
+    <div class="agents__why-contents">Чому AutoVokzal?</div>
+    <div class="agents__why-description">Ми надаємо нашим агентам з продажу послуги, засновані на передових технологіях,
+      що раніше не представлені на автобусному ринку
     </div>
-    <div class="index__information-info">
-      <div class="index__information-info_text">Сервіс AutoVokzal працює тільки з надійними перевізниками, що дозволяє
-        купити
-        квитки на автобуси далекого прямування через інтернет без будь-яких ризиків. Оплата здійснюється через захищений
-        шлюз із використанням останніх технологій шифрування. При покупці квитків доступний вибір автовокзалів
-        відправлення та прибуття, різних маршрутів, а також вибір місця в салоні автобуса.
-      </div>
-      <div class="index__information-links">
-        <div class="index__information-card">
-          <img src="img/faq_icon.svg" alt="faq_icon.svg">
-          <a href="faq.html" class="index__information-card_text">Поширені запитання</a>
-        </div>
-        <div class="index__information-card">
-          <img src="img/return_icon.svg" alt="return_icon.svg">
-          <a href="faq.html" class="index__information-card_text">Умови повернення</a>
-        </div>
-        <div class="index__information-card">
-          <img src="img/security_icon.svg" alt="security_icon.svg">
-          <a href="faq.html" class="index__information-card_text">Безпека платежів</a>
+    <div class="agents__why-list">
+      <div class="agents__why-card">
+        <img src="img/agents_ticket_icon.svg" alt="agents_ticket_icon.svg">
+        <div class="agents__why-card_text">
+          <div class="agents__why-card_text_label">
+            Зручний інтерфейс касира
+          </div>
+          <div class="agents__why-card_text_description">
+            Для роботи достатньо комп'ютера підключеного до Інтернету
+          </div>
         </div>
       </div>
+      <div class="agents__why-card">
+        <img src="img/agents_bus_icon.svg" alt="agents_bus_icon.svg">
+        <div class="agents__why-card_text">
+          <div class="agents__why-card_text_label">
+            Повна інтеграція
+          </div>
+          <div class="agents__why-card_text_description">
+            Високошвидкісний повнофункціональний REST API
+          </div>
+        </div>
+      </div>
+      <div class="agents__why-card">
+        <img src="img/agents_assist_icon.svg" alt="agents_assist_icon.svg">
+        <div class="agents__why-card_text">
+          <div class="agents__why-card_text_label">
+            Особистий кабінет та персональний менеджер
+          </div>
+          <div class="agents__why-card_text_description">
+            Аналітика продажу в особистому кабінеті та вирішення питань через персонального менеджера
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="agents__communicate">
+    <div class="agents__communicate-contents">
+      Як розпочати співпрацю
+    </div>
+    <div class="agents__communicate-inputs">
+      <input class="agents__communicate-inputs_input" placeholder="Телефон">
+      <button onclick="alertComingSoon()" class="agents__communicate-inputs_button">Відправити</button>
+    </div>
+    <div class="agents__communicate-description">
+      Залишіть свій телефон і наш оператор зв'яжеться з вами та детально проконсультує
     </div>
   </div>
 </div>
-
 <footer class="footer">
   <div class="footer__links">
     <div class="footer__links-info">
@@ -216,5 +199,4 @@
 </footer>
 <script src="js/app.js"></script>
 </body>
-
 </html>
