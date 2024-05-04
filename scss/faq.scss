@@ -1,0 +1,92 @@
+.faq {
+  padding: 0 350px;
+
+  &__questions {
+    margin: 36px 0;
+    height: 900px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+
+    &-contents {
+      padding: 46px 0 32px 59px;
+
+      color: rgb(51, 54, 64);
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    &-list {
+
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      padding: 33px 42px 46px 60px;
+
+      border-top: 1px solid rgb(69, 73, 87);
+
+      &_label {
+        color: rgb(69, 73, 87);
+        font-size: 18px;
+        font-weight: 700;
+
+        margin: 0 0 16px;
+      }
+
+      &_description {
+        color: rgb(69, 73, 87);
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &__guide {
+    height: 350px;
+    border-radius: 5px;
+
+    padding: 47px 80px 62px 59px;
+    margin: 0 0 36px;
+
+    background: rgb(255, 255, 255);
+
+    &-contents {
+      color: rgb(51, 54, 64);
+      font-size: 24px;
+      font-weight: 500;
+
+      margin: 0 0 46px;
+    }
+
+    &-list {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-card {
+      width: 200px;
+
+      & img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    &-text {
+      &_label {
+        margin: 19px 0 16px;
+
+        color: rgb(51, 54, 64);
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      &_description {
+        color: rgb(69, 73, 87);
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+  }
+}
