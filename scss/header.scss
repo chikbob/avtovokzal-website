@@ -8,7 +8,7 @@
   color: rgb(255, 255, 255);
   background: rgb(23, 61, 157);
 
-  padding: 0 250px;
+  padding: 0 350px;
 
   &__icon {
     display: flex;
@@ -45,7 +45,7 @@
     }
 
     &:last-child {
-      margin: 0 300px 0 52px;
+      margin: 0 200px 0 52px;
     }
 
     & img {
@@ -81,7 +81,7 @@
 
     &-description {
       text-align: end;
-      width: 120.55px;
+      width: 124.55px;
 
       color: rgba(255, 255, 255, 0.42);
       font-size: 12px;

@@ -1,0 +1,68 @@
+.footer {
+  padding: 39px 350px 39px;
+  height: 230px;
+  background: rgb(23, 61, 157);
+}
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__links-info_contents {
+  display: flex;
+}
+.footer__links-info_contents img {
+  width: 20px;
+  height: 20px;
+  margin: 3px 10px 0 0;
+}
+.footer__links-info_contents_text {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 13px;
+}
+.footer__links-info_list {
+  display: flex;
+  flex-direction: column;
+}
+.footer__links-info_item {
+  margin: 4px 0 4px 30px;
+  color: rgb(209, 216, 235);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.footer__links-info_item:first-child {
+  margin: 0 0 4px 30px;
+}
+.footer__links-info_item:last-child {
+  margin: 4px 0 0 30px;
+}
+.footer__commercial-phone {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 13px;
+}
+.footer__commercial-item {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+.footer__commercial-item:first-child {
+  margin: 0 0 8px;
+}
+.footer__commercial-item:last-child {
+  margin: 8px 0 0;
+}
+.footer__commercial-item img {
+  margin: 0 5px 0 0;
+}
+.footer__commercial-item_text {
+  color: rgb(209, 216, 235);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=footer.css.map */

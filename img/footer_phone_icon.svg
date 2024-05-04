@@ -1,0 +1,12 @@
+<svg width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <desc>
+    Created with Pixso.
+  </desc>
+  <defs>
+    <pattern id="pattern_2_1090" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+      <use xlink:href="#image2_109_0" transform="matrix(0.019608,0,0,0.019608,0,-0.029412)"/>
+    </pattern>
+    <image id="image2_109_0" width="51.000000" height="54.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA2CAYAAABqbKGZAAAABHNCSVQICAgIfAhkiAAABA1JREFUaIHtmVloU1kYx/+5WZraJLVL2rQaDXaKDaI2CqNt1eowOkLFBQcfBp3puL244IIPDkUUFcEHVxB8KG6gIIhWHVFQsVo7dsxowTppTTe7abQmrbdpk2bzSWsMvffk3pN6Kfm95Zxzv/v/c865+c75ZJlzy0MYJTDfWwBN4makStyMVImbkSoKrs65M7NRuiIPxkzNsGPaHX0ov2JD9fM31MVFC+fM/L50MqcRADBmalC6PI+qKKFwmslIG0MUxJSthUoppyJIDJxmPvR4iAMla1SixYiF04zro5c4kE4rcTPO3lE0M84olpkpWydajFi490wv+TKbnpcuWoxYePYM+czk56WDYWSiBYmB00xDSw9xoMQEOQzpZJ/yWMFppu0Niw6HmyiQ1xcE6x6kIkoovLnZo/+6iAIdO18L1u0TLUgMvGaqa99y9gdDwIHTVtx70kFNlFB4zTS0uIb9qgWCIew79S8eWslmL9YQHQGqnkWKHfQHsedkDf7hmbmRhMjMtXstEW3lV/7H07p31AWJgchMp6MPdx63hbWVFJu++//KtxCfNM9V1MMfGLovnGDQYOXCnJiIEgqxmW6XBxX3m8Pa1iydjNRkNXVRQonqDuDi368w4A18+a1WybH5t6nURQklKjOs24fLt+1hbXNmZKFknommJsFEfTtz+U4jGlrDc7Ytq6ehyJJFTZRQojbj8wVRdqIG711DGTUjA/7aOBPmSSlUxUWLoHuzXtaLsuNPwvaPUsHg0PYCWMz6qGIlqhXUsm25ZuKyvUIe7GG9aO1kseDHcV/alAoGCwuMeOccQFN7L2+MJfNNOLyzEL8uysHPhUaYJ6VAn5oIpYLBGLUCcjmDAY+fWJNMbLFp1eJcrF9pjmi/eMuOs1dtwz63pNiEraunEb3jdReLM9fqeS8aBc/MZ142OuEe8GPGlAzIvkoIpuamId+sx4tX3ejrDz8a/FI0AdvWTA8bz8VYbQImZutw80Er5zjRZgDA1uzCy0YniixZUCqGtmFmWiJKik3wB4KwNbsQCgE/zR6PXX9aiI18JkWXgAs3GjjHiF5mXzPeoMH+LbMwLiMpoq+p/SMqrZ1YuyJySZKyaMN1zn6qVYCOt33YtL8Sz2zdEX05Rp0oIyRQL2n0e/zYfbQaR87VwsWSX1XRICb1mVAIuF3Vhj9238WlW3YM+oOxeE0EMS02ebwBnLlqw7qy+6gcgaP1iFTOHB/6cfC0FTsOV+GhtSssc6AJZ+WMNnV2J+rsTigVDCxmPQotBhTkG5CiTeB99nUXyzuG6qdZKFN+SIXFrEdqshq6JCU0SSqM1aqgS1JBp1Wh0+HG+Yp6PObJACRhhhajqtocNyNV4makStyMVImbkSqfABvNMVRMlyTGAAAAAElFTkSuQmCC"/>
+  </defs>
+  <rect id="image 16" width="16.000000" height="16.000000" fill="url(#pattern_2_1090)" fill-opacity="1.000000"/>
+</svg>

@@ -1,0 +1,99 @@
+.footer {
+  padding: 39px 350px 39px;
+  height: 230px;
+
+  background: rgb(23, 61, 157);
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+
+    &-info {
+
+      &_contents {
+        display: flex;
+
+        & img {
+          width: 20px;
+          height: 20px;
+
+          margin: 3px 10px 0 0;
+        }
+
+        &_text {
+          color: rgb(255, 255, 255);
+          font-size: 20px;
+          font-weight: 700;
+
+          margin: 0 0 13px;
+
+
+        }
+      }
+
+      &_list {
+        display: flex;
+        flex-direction: column;
+      }
+
+      &_item {
+        margin: 4px 0 4px 30px;
+
+        color: rgb(209, 216, 235);
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: none;
+
+        &:first-child {
+          margin: 0 0 4px 30px;
+        }
+
+        &:last-child {
+          margin: 4px 0 0 30px;
+        }
+      }
+    }
+  }
+
+  &__commercial {
+
+    &-phone {
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+      font-weight: 700;
+
+      margin: 0 0 13px;
+    }
+
+    &-list {
+
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+
+      margin: 8px 0;
+
+      &:first-child {
+        margin: 0 0 8px;
+      }
+
+      &:last-child {
+        margin: 8px 0 0;
+      }
+
+      & img {
+        margin: 0 5px 0 0;
+      }
+
+      &_text {
+        color: rgb(209, 216, 235);
+        font-size: 14px;
+        font-weight: 400;
+
+        text-decoration: none;
+      }
+    }
+  }
+}

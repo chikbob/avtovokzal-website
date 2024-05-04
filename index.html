@@ -4,16 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>AutoVokzal</title>
   <link rel="stylesheet" href="scss/style.css">
+  <link rel="stylesheet" href="scss/index.css">
   <link rel="stylesheet" href="scss/header.css">
-  <meta name="description" content="">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
+  <link rel="stylesheet" href="scss/footer.css">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
@@ -21,6 +16,12 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -53,6 +54,166 @@
     </div>
   </div>
 </header>
+
+<div class="index">
+  <div class="index__contents">Купити квиток на автобус онлайн</div>
+  <div class="index__search">
+    <div class="index__search-inputs">
+      <input type="text" placeholder="Пункт відправки">
+      <input type="text" placeholder="Пункт прибуття">
+      <input type="date">
+    </div>
+    <button onclick="alertComingSoon()" class="index__search-button">
+      Знайти квитки
+    </button>
+  </div>
+  <div class="index__guide">
+    <div class="index__guide-contents">
+      Як купити квиток на автобус
+    </div>
+    <div class="index__guide-list">
+      <div class="index__guide-card">
+        <img src="img/guide_part1.svg" alt="guide_part1.svg">
+        <div class="index__guide-text">
+          <div class="index__guide-text_label">
+            1. Подивіться розклад автобусів
+          </div>
+          <div class="index__guide-text_description">
+            Виберіть пункт відправлення автобуса, призначення та дату поїздки.
+          </div>
+        </div>
+      </div>
+      <div class="index__guide-card">
+        <img src="img/guide_part2.svg" alt="guide_part2.svg">
+        <div class="index__guide-text">
+          <div class="index__guide-text_label">
+            2. Виберіть рейс
+          </div>
+          <div class="index__guide-text_description">
+            Порівняйте ціни на квитки, місце і час відправлення.
+          </div>
+        </div>
+      </div>
+      <div class="index__guide-card">
+        <img src="img/guide_part3.svg" alt="guide_part3.svg">
+        <div class="index__guide-text">
+          <div class="index__guide-text_label">
+            3. Купуйте квиток на автобус
+          </div>
+          <div class="index__guide-text_description">
+            Введіть дані пасажира, сплатіть квиток та роздрукуйте його.
+          </div>
+        </div>
+      </div>
+      <div class="index__guide-card">
+        <img src="img/guide_part4.svg" alt="guide_part4.svg">
+        <div class="index__guide-text">
+          <div class="index__guide-text_label">
+            4. Все готово!
+          </div>
+          <div class="index__guide-text_description">
+            Будь ласка, після поїздки залиште відгук - це покращить якість обслуговування.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="index__information">
+    <div class="index__information-contents">
+      <img src="img/contents_icon.svg" alt="contents_icon.svg">
+      <div class="index__information-contents_text">Інформація</div>
+    </div>
+    <div class="index__information-info">
+      <div class="index__information-info_text">Сервіс AutoVokzal працює тільки з надійними перевізниками, що дозволяє
+        купити
+        квитки на автобуси далекого прямування через інтернет без будь-яких ризиків. Оплата здійснюється через захищений
+        шлюз із використанням останніх технологій шифрування. При покупці квитків доступний вибір автовокзалів
+        відправлення та прибуття, різних маршрутів, а також вибір місця в салоні автобуса.
+      </div>
+      <div class="index__information-links">
+        <div class="index__information-card">
+          <img src="img/faq_icon.svg" alt="faq_icon.svg">
+          <div class="index__information-card_text">Поширені запитання</div>
+        </div>
+        <div class="index__information-card">
+          <img src="img/return_icon.svg" alt="return_icon.svg">
+          <div class="index__information-card_text">Умови повернення</div>
+        </div>
+        <div class="index__information-card">
+          <img src="img/security_icon.svg" alt="security_icon.svg">
+          <div class="index__information-card_text">Безпека платежів</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer__links">
+    <div class="footer__links-info">
+      <div class="footer__links-info_contents">
+        <img src="img/footer_info_icon.svg" alt="footer_info_icon.svg">
+        <div class="footer__links-info_contents_text">
+          Інформація
+        </div>
+      </div>
+      <div class="footer__links-info_list">
+        <a href="" class="footer__links-info_item">Пасажирам</a>
+        <a href="" class="footer__links-info_item">Агентам</a>
+        <a href="" class="footer__links-info_item">Партнерам</a>
+        <a href="" class="footer__links-info_item">Контакти</a>
+        <a href="" class="footer__links-info_item">Відгуки</a>
+        <a href="" class="footer__links-info_item">Оренда автобусів</a>
+      </div>
+    </div>
+    <div class="footer__links-info">
+      <div class="footer__links-info_contents">
+        <img src="img/footer_geo_icon.svg" alt="footer_geo_icon.svg">
+        <div class="footer__links-info_contents_text">
+          Географія
+        </div>
+      </div>
+      <div class="footer__links-info_list">
+        <a href="" class="footer__links-info_item">Білети на автобуси до України</a>
+        <a href="" class="footer__links-info_item">Білети на автобуси до Польщі</a>
+        <a href="" class="footer__links-info_item">Білети на автобуси до Словакії</a>
+        <a href="" class="footer__links-info_item">Білети на автобуси до Німеччини</a>
+      </div>
+    </div>
+    <div class="footer__links-info">
+      <div class="footer__links-info_contents">
+        <img src="img/footer_directory_icon.svg" alt="footer_directory_icon.svg">
+        <div class="footer__links-info_contents_text">
+          Довідник
+        </div>
+      </div>
+      <div class="footer__links-info_list">
+        <a href="" class="footer__links-info_item">Автовокзали</a>
+        <a href="" class="footer__links-info_item">Розклад автобусів</a>
+        <a href="" class="footer__links-info_item">Перевізники</a>
+      </div>
+    </div>
+    <div class="footer__commercial">
+      <div class="footer__commercial-phone">
+        +380 99 234-66-77
+      </div>
+      <div class="footer__commercial-list">
+        <div class="footer__commercial-item">
+          <img src="img/footer_map_icon.svg" alt="footer_map_icon.svg">
+          <a href="" class="footer__commercial-item_text">Дніпро, пр-т. Слобожанський, 95</a>
+        </div>
+        <div class="footer__commercial-item">
+          <img src="img/footer_message_icon.svg" alt="footer_message_icon.svg">
+          <a href="" class="footer__commercial-item_text">Напишіть нам help@autovokzal.com</a>
+        </div>
+        <div class="footer__commercial-item">
+          <img src="img/footer_phone_icon.svg" alt="footer_phone_icon.svg">
+          <a href="" class="footer__commercial-item_text">+38 (068) 234-66-77</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 <script src="js/app.js"></script>
 </body>
 
