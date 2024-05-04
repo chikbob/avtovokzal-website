@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 56px;
+
+  color: rgb(255, 255, 255);
+  background: rgb(23, 61, 157);
+
+  padding: 0 250px;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+
+    & img {
+      width: 36px;
+      height: 36px;
+
+      margin: 0 10px 0 0;
+    }
+
+    &-text {
+      color: rgb(255, 255, 255);
+      font-size: 14px;
+    }
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+
+    font-size: 12px;
+    font-weight: 400;
+
+    margin: 0 52px;
+
+    &:first-child {
+      margin: 0 52px 0 0;
+    }
+
+    &:last-child {
+      margin: 0 300px 0 52px;
+    }
+
+    & img {
+
+    }
+
+    &-text {
+      width: 105px;
+      margin: 0 0 0 8px;
+    }
+  }
+
+  &__phone {
+    display: flex;
+    flex-direction: column;
+
+    &-link {
+      display: flex;
+
+      & img {
+
+      }
+
+      &_text {
+        font-size: 14px;
+        font-weight: 700;
+
+        width: fit-content;
+
+        margin: 0 0 0 4px;
+      }
+    }
+
+    &-description {
+      text-align: end;
+      width: 120.55px;
+
+      color: rgba(255, 255, 255, 0.42);
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}

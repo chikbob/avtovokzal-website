@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
   <link rel="stylesheet" href="scss/style.css">
+  <link rel="stylesheet" href="scss/header.css">
   <meta name="description" content="">
 
   <meta property="og:title" content="">
@@ -23,11 +24,36 @@
 </head>
 
 <body>
-
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
-
+<header class="header">
+  <div class="header__icon">
+    <img src="img/logo.svg" alt="icon.png">
+    <div class="header__icon-text">AutoVokzal</div>
+  </div>
+  <div class="header__list">
+    <div class="header__card">
+      <img src="img/clients_icon.svg" alt="clients_icon.svg">
+      <div class="header__card-text">1 000 000 клієнтів</div>
+    </div>
+    <div class="header__card">
+      <img src="img/help_icon.svg" alt="help_icon.svg">
+      <div class="header__card-text">Служба підтримки</div>
+    </div>
+    <div class="header__card">
+      <img src="img/road_icon.svg" alt="road_icon.svg">
+      <div class="header__card-text">Страхування</div>
+    </div>
+  </div>
+  <div class="header__phone">
+    <div class="header__phone-link">
+      <img src="img/dot_icon.svg" alt="dot_icon.svg">
+      <div class="header__phone-link_text">380 99 234-66-77</div>
+    </div>
+    <div class="header__phone-description">
+      Цілодобово
+    </div>
+  </div>
+</header>
+<script src="js/app.js"></script>
 </body>
 
 </html>
